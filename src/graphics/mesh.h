@@ -1,0 +1,1 @@
+#ifndef MESH_H\n#define MESH_H\n\nstruct Vertex {\n    float x;\n    float y;\n    float z;\n};\n\nstruct Mesh {\n    struct Vertex* vertices;\n    int vertexCount;\n};\n\n#endif // MESH_H
